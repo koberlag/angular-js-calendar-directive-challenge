@@ -1,1 +1,47 @@
-/* your css code goes here */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+body{
+	margin:0;
+}
+.control-container{
+	background-color: black;
+	height:42px;
+	padding-left: .5em;
+}
+
+.control-container select{
+	margin-top:1em;
+}
+
+.day {
+  border:1px solid #dddddd;
+  max-width:14.2857%;
+  min-width:14.2857%;
+  padding:10px;
+  font-size:2em;
+  height: calc(16.66vh - 7px);
+  min-height: 50px;
+}
+
+.outer
+{
+  background:#eee;
+}
+
+.calendar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+}
